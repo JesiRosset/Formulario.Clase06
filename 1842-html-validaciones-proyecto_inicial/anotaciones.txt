@@ -1,0 +1,27 @@
+VALIDACIÓN DE FORMULARIOS
+
+Para que cada a compo a rellenar cumpla con requisitos del tipo de información, es necesario utilizar la etiqueta HTML "type". Tal atributo hace validaciones si el campo cumple la condición del TIPO de dato a ingresar. 
+Ejemplo: type=email (sabrá el software que el campo esperado que debe ingresar el usuario debe ser del tipo email con el caracter especial @).
+
+Cuando queremos que una constaseña cumpla con alguna condición específica estilo: "mínimo 8 caracteres y algún número y letra", hay un código de ejemplos a utilizar para cada una de esas condiciones solicitadas en:
+https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a 
+
+Ejemplo: Mínimo ocho caracteres, al menos una letra y un número: "^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" Siempre abre con ^ y cierra con $.
+
+
+Para los métodos de las fechas, se puede ver cada función en https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear
+
+//El setCustomValidity()método de la HTMLObjectElementinterfaz establece un mensaje de validez personalizado para el elemento en js.
+
+
+
+-------
+¿Qué es una expresión regular o RegEx? Pero empecemos por el principio, su definición: podemos definir una Expresión Regular (o RegEx, Regular Expression), como una cadena de texto genérica, que se usa a modo de patrón, y que sirve para localizar trozos de texto dentro de otro texto mayor.
+
+https://regexr.com/ Esta página nos regala una tabla con ejemplos, un cheatsheet con algunas reglas y también un validador explicando todo lo que está pasando durante la escritura.
+
+
+
+
+MÁS SOBRE LIVE SERVER
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer 
